@@ -1,0 +1,35 @@
+Viewing a diff between two versions of a file helped me see the bug that was introduced by showing the differences in the code of the old version of the file and the new version of the same file. Not only it showed the differences in the code, but it also showed the number of these lines at which a mistake had been.
+
+By having access to the entire history of a file I can easily find my mistakes and by finding them I can learn what mistakes I had made in the past. Also, I can see the improvements in my style of coding. It'd give me the ability to share and collaborate on a project with other people as well. 
+In case if my program would fail to compile or just stop working by some mysterious reason I could easily find the problem by comparing the old and the new version of the file or just return to the previous version that's been working.
+
+The pros of manual commit:
++ Commits are logically separated 
++ Changes are easy to track
++ More control over the number of commits, versions
+The cons of manual commit:
+– Could be a situation when you didn't commit the version you'd been working on and it was lost at that moment.
+– More time-consumption
+The pros of automatically saving:
++ All the versions are saved and are extremely hard to be not saved
+The cons of automatically saving:
+– There's no description on what changes are made
+– Hard to find the version that you need
+– May be way too many versions
+
+Git allows saving multiple files in one commit because it's purposed to actually store different versions of the project you're working on. And the project can contain more than 1 file. Otherwise, Google Docs or Dropbox are cloud storage services for your files and are not supposed to handle the changes made to a group of files. In my opinion, they just 'don't know' that a files might somehow be correlated and form a group.
+
+I can use "git log" command to view all the changes made to the repository. Also, you can manage to get the ids of the commits you want to compare by viewing an appropriate descriptions of the commits. 
+Later, you can use these ids to actually compare the two commits and see the differences between the two versions of a project (what lines were added, what lines were deleted) by running a "git diff <id1> <id2>" command in the terminal.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+It might make me more confident to make changes because with version control system installed I can easily go back in time and checkout the latest version without any bugs or issues. And I can always find the mistakes I made to, for example, correct them in the current version of a project.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try to use Git for a project I want to work on. Also, I want to try to do some exercies and tasks that might be given to me in the future on Udacity.
+
+
