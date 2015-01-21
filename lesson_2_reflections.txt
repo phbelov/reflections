@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository I make a folder/project available for tracking by git (or other version control system). I need to do it because it's a start point to make fixing bugs and tracking changes in the code a lot more easier.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is like conveyor that's linking the working directory and repository. Working directory is a bunch of parts that you need to put on coveyor (the staging area) to reach the final product state (to become a repository). Staging area also represents the delta or the difference between the working directory and repository in my opinion. Because only the files that are on the staging area will be actually committed to the repository and so the changes will be only applied to those files that were on the staging area.
