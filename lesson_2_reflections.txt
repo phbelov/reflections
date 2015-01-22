@@ -16,3 +16,8 @@ What are some situations when branches would be helpful in keeping your history 
 2. Adding/testing a new experimental feature
 =
 First of all, branches help to keep a project's structure more clean and easier to understand without a need to create unnecessary files (e.g. for localization). Also if you want to test out a new feature that you want to add to your project, it helps to keep the main (current) version free of bugs and issues that might appear in the process of integrating a new feature.
+
+How do the diagrams help you visualize the branch structure?
+
+By visualizing. They help to see what commits are unreachable and what changes has been made to every branch in the repository. So you can view what commits refer to appropriate branch.
+
