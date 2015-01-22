@@ -5,3 +5,14 @@ When I initialize a repository I make a folder/project available for tracking by
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is like conveyor that's linking the working directory and repository. Working directory is a bunch of parts that you need to put on coveyor (the staging area) to reach the final product state (to become a repository). Staging area also represents the delta or the difference between the working directory and repository in my opinion. Because only the files that are on the staging area will be actually committed to the repository and so the changes will be only applied to those files that were on the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use the staging area to add files that I've made the logical changes to. And by adding them I can then compare them with the files that are in the working directory to make sure that I've only got files prepared to commit that I actually want.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+1. Localization
+2. Adding/testing a new experimental feature
+=
+First of all, branches help to keep a project's structure more clean and easier to understand without a need to create unnecessary files (e.g. for localization). Also if you want to test out a new feature that you want to add to your project, it helps to keep the main (current) version free of bugs and issues that might appear in the process of integrating a new feature.
