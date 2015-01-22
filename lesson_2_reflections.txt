@@ -21,3 +21,6 @@ How do the diagrams help you visualize the branch structure?
 
 By visualizing. They help to see what commits are unreachable and what changes has been made to every branch in the repository. So you can view what commits refer to appropriate branch.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging to branches together is a commit that includes changes made to the common commit of two branches (that are merged) in both of two branches. We represent it in the diagram in such way to visualize what commits are actually continue to be available for a checkout. 
