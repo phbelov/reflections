@@ -4,3 +4,8 @@ For example, when you're working on a big project and you're not the only person
 Also, you may use remote repository as a backup or you need to access the data from another computer.
 
 // Just adding some changes to make my local repository outdated :)
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because you may not need changes that are being added to your repository when you're working on something. Imagine that you're working on a project and writing some code and all of a sudden your code start to change some new lines are being added, etc. That'd be just a mess :)
+If the changes were pulled manually then it'd be harder to track bugs and issues. Also, I think, there would be just way too many commits.
