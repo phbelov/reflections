@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+For example, when you're working on a big project and you're not the only person who's actually working on it. In order to others be able to access the project files you'd likely put it online (if you're not working in the same local network).
+Also, you may use remote repository as a backup or you need to access the data from another computer.
