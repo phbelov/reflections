@@ -9,3 +9,14 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Because you may not need changes that are being added to your repository when you're working on something. Imagine that you're working on a project and writing some code and all of a sudden your code start to change some new lines are being added, etc. That'd be just a mess :)
 If the changes were pulled manually then it'd be harder to track bugs and issues. Also, I think, there would be just way too many commits.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+I use forks when I'm not able to directly contribute to a project because I don't have a permission from the repository owner to actually make changes to his/her code.
+I'd use clones when I'm allowed by the owner to do edits to files stored in the repository. And also you can use clones without any interaction with GitHub (e.g. in a local network).
+I'd use branches to maybe test out a new feature that I'd want to add in the future or create a localization of a particular language for my project.
+The differences between forks, clones, and branches. Hmmm...
+– Forks require GitHub
+– Branches are used with the same project (in most cases). However, forks and clones are usually used for **adding** a new repository to either GitHub or your computer.
+– As far as I know (at the moment of typing this line) you cannot fork from the terminal :)
+ – You cannot do multiple forks for the same account (that's just my hypothesis, so I could be wrong :)) 
